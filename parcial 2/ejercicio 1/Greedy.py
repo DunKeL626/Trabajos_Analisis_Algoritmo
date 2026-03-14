@@ -1,5 +1,7 @@
 #Complejidad en tiempo: O(n log n + m log m
 #Complejidad en espacio: O(1)
+#El algoritmo es greedy porque en cada paso asigna la galleta más pequeña que pueda satisfacer al niño menos exigente disponible. 
+#Esta decisión local evita desperdiciar galletas grandes y permite maximizar el número total de niños satisfechos.
 def findContentChildren(g: list[int], s: list[int]) -> int:
         g.sort()
         s.sort()

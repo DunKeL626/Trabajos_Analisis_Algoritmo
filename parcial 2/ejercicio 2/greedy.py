@@ -1,5 +1,7 @@
 # Complejidad tiempo: O(n log n)
 # Complejidad espacio: O(1)
+#El algoritmo es greedy porque en cada paso elige el intervalo que termina más temprano, lo cual es una decisión local óptima que 
+# conduce a una solución global óptima sin necesidad de explorar todas las combinaciones posibles.
 def eraseOverlapIntervals(intervals: list[list[int]]) -> int:
         intervals.sort(key=lambda x: x[1])
         j = 0
