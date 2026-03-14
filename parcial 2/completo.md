@@ -1,4 +1,4 @@
-# Parcial 1 - Análisis de Algoritmos
+# Parcial 2 - Análisis de Algoritmos
 
 ## 1. Assign Cookies (Greedy)
 
